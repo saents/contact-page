@@ -201,12 +201,25 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .main-article__header {
+    margin: 0px 50px;
+  }
+
   .main-article .flexBox {
     display: flex;
     flex-wrap: wrap;
   }
   .main-article .flexBox .social-item:nth-child(2) {
     margin: 100px 0px;
+  }
+
+  .main-article .social-item img {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+
+  .main-article .social-item p {
+    font-size: 1em;
   }
 
   .social-icon {
